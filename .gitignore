@@ -1,0 +1,52 @@
+# Virtual environments
+.venv/
+.venv-backend/
+.venv-ml/
+venv/
+venv-backend/
+venv-ml/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Environment and local config files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Model and experiment artifacts
+artifacts/
+checkpoints/
+wandb/
+mlruns/
+
+# Local databases
+*.db
+*.sqlite3
